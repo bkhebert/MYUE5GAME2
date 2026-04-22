@@ -5,7 +5,9 @@
 #include "CoreMinimal.h"
 
 USTRUCT()
+struct FLines {
 
+};
 
 class MYSURVIVALGAME_API InventoryDataStructs
 {
