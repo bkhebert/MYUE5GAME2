@@ -2,6 +2,14 @@
 
 #pragma once
 
+// Imported
+#include "Blueprint/UserWidget.h"
+#include "Components/Border.h"
+#include "Components/CanvasPanel.h"
+#include "Components/CanvasPanelSlot.h"
+#include "InventoryDataStructs.h"
+
+
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
 #include "InventoryGridWidget.generated.h"
