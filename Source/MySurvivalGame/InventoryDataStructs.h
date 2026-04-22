@@ -4,9 +4,9 @@
 
 #include "CoreMinimal.h"
 
-/**
- * 
- */
+USTRUCT()
+
+
 class MYSURVIVALGAME_API InventoryDataStructs
 {
 public:
