@@ -6,7 +6,7 @@
 
 USTRUCT()
 struct FLines {
-
+	TArray<FVector2D>
 };
 
 class MYSURVIVALGAME_API InventoryDataStructs
