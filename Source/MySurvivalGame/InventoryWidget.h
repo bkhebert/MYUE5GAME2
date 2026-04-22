@@ -13,18 +13,24 @@ class UBackgroundBlur;
  * 
  */
 UCLASS()
+
 class MYSURVIVALGAME_API UInventoryWidget : public UUserWidget
 {
 	GENERATED_BODY()
 	
 public: 
+
 	UPROPERTY(VisibleAnywhere, meta = (BindWidget), Category = "UI")
 	UCanvasPanel* Canvas;
+
 	UPROPERTY(VisibleAnywhere, meta = (BindWidget), Category = "UI")
 	UBorder* BackgroundBorder;
+
 	UPROPERTY(VisibleAnywhere, meta = (BindWidget), Category = "UI")
 	UBackgroundBlur* Blur;
 
 protected:
+
 	virtual void NativeConstruct() override;
+
 };
