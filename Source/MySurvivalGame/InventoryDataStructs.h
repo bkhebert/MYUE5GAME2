@@ -6,6 +6,7 @@
 
 USTRUCT()
 struct FLines {
+	GENERATED_USTRUCT_BODY();
 
 	FLines() {
 

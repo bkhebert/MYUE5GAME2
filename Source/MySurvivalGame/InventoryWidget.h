@@ -6,6 +6,8 @@
 #include "Blueprint/UserWidget.h"
 #include "InventoryWidget.generated.h"
 
+class UCanvasPanel;
+
 /**
  * 
  */
