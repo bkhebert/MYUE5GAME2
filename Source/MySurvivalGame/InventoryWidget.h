@@ -7,7 +7,8 @@
 #include "InventoryWidget.generated.h"
 
 class UCanvasPanel;
-
+class UBorder;
+class UBackgroundBlur;
 /**
  * 
  */
@@ -16,4 +17,12 @@ class MYSURVIVALGAME_API UInventoryWidget : public UUserWidget
 {
 	GENERATED_BODY()
 	
+public: 
+	UPROPERTY(VisibleAnywhere, meta = (BindWidget), Category = "UI")
+	UCanvasPanel* Canvas;
+	UPROPERTY(VisibleAnywhere, meta = (BindWidget), Category = "UI")
+	UBorder* BackgroundBorder;
+	UPROPERTY(VisibleAnywhere, meta = (BindWidget), Category = "UI")
+	UBackgroundBlur* Blur;
+
 };
