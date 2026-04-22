@@ -6,6 +6,11 @@
 
 USTRUCT()
 struct FLines {
+
+	FLines() {
+
+	};
+
 	TArray<FVector2D> XLines;
 	TArray<FVector2D> YLines;
 };
