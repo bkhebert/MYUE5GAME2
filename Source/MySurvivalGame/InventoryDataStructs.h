@@ -3,9 +3,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "InventoryDataStructs.generated.h"
 
 USTRUCT()
 struct FLines {
+
 	GENERATED_USTRUCT_BODY();
 
 	FLines() {
