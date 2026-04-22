@@ -6,6 +6,9 @@
 #include "Blueprint/UserWidget.h"
 #include "InventoryGridWidget.generated.h"
 
+
+class UCanvasPanel;
+class UBorder;
 /**
  * 
  */
@@ -14,4 +17,15 @@ class MYSURVIVALGAME_API UInventoryGridWidget : public UUserWidget
 {
 	GENERATED_BODY()
 	
+public: 
+
+	UPROPERTY(VisibleAnywhere, meta = (BindWidget), Category = "UI")
+    UCanvasPanel* Canvas;
+
+	UPROPERTY(VisibleAnywhere, meta = (BindWidget), Category = "UI")
+    UBorder* GridBorder;
+
+	UPROPERTY(VisibleAnywhere, meta = (BindWidget), Category = "UI")
+	UCanvasPanel* GridCanvasPanel;
+
 };
